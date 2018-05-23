@@ -1,16 +1,14 @@
 <html>
     <head>
-        <title>
-            Music blog
-        </title>
+        <title>Music blog</title>
     </head>
     <body>
-        <h1>
-            Concerts
-        </h1>
+        {% for post in posts %}
+        <div>
+            <p>pushed : {{post.published_date }}</p>
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+        {% endfor %}
     </body>
-    <p>
-        Hello, World!
-    </p>
-    <p>It works!</p>
 </html>
