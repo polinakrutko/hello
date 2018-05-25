@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to left , #DCE5E8 , #E1E2E3);
+}
+
+.post {
+    width: 600px;
+    margin: 40px auto;
+    border: 2px solid #c3c3c3;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.post__date {
+    font-size: 14px;
+    color: #28292E;
+}
+
+.post__name {
+    width: 100%;
+    font-size: 20px;
+    color: #8915B0;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.post__underline {
+    font-size: 16px;
+    
+}
