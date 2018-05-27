@@ -2,6 +2,11 @@ body {
     background: linear-gradient(to left , #DCE5E8 , #E1E2E3);
 }
 
+.page-header {
+    display: flex;
+    justify-content: center;
+}
+
 .post {
     width: 600px;
     margin: 40px auto;
