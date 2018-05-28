@@ -10,6 +10,7 @@
     <body>
         <header class="page-header">
             <a class="page-header__link" href="/">Music blog</a>
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
         </header>   
         <main class="container">
             {% block content %}
