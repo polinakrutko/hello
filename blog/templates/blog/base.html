@@ -8,12 +8,10 @@
         <link href="http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,latin" rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
         <header class="page-header">
-            <a class="page-header__link" href="/">Music blog</a>
+            <a class="page-header__link" href="/">Creative life of VSU</a>
         </header>
         <main class="container">
-            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             {% block content %}
             {% endblock %}
         </main>
